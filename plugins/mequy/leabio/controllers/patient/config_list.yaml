@@ -1,0 +1,12 @@
+list: $/mequy/leabio/models/patient/columns.yaml
+modelClass: Mequy\Leabio\Models\Patient
+title: Patient
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'mequy/leabio/patient/update/:id'

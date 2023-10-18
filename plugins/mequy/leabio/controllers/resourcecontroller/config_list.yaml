@@ -1,0 +1,17 @@
+list: $/mequy/leabio/models/resourcecontroller/columns.yaml
+modelClass: Mequy\Leabio\Models\ResourceController
+title: 'Manage Resource Controllers'
+recordUrl: 'mequy/leabio/resourcecontroller/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showPageNumbers: true
+showSetup: true
+showSorting: true
+defaultSort:
+    column: id
+    direction: asc
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

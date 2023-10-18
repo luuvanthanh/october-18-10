@@ -1,0 +1,12 @@
+columns:
+    name:
+        label: Name
+        type: text
+        # searchable: true
+        # sortable: true
+        # cho biết column này có bị ẩn hay không.
+        # invisible: true
+        # Hủy thao tác click chuột lên item được chọn để nó redirect đến form chi tiết.
+        # clickable: false
+        # align: center
+        # order: true

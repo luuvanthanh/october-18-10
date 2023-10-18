@@ -1,0 +1,10 @@
+name: Patient
+form: $/mequy/leabio/models/patient/fields.yaml
+modelClass: Mequy\Leabio\Models\Patient
+defaultRedirect: mequy/leabio/patient
+create:
+    redirect: 'mequy/leabio/patient/update/:id'
+    redirectClose: mequy/leabio/patient
+update:
+    redirect: mequy/leabio/patient
+    redirectClose: mequy/leabio/patient

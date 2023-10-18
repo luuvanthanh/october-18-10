@@ -1,0 +1,11 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table mequy_leabio_patients'
+    - builder_table_create_mequy_leabio_patients.php
+v1.0.3:
+    - 'Created table mequy_leabio_meals'
+    - builder_table_create_mequy_leabio_meals.php
+v1.0.4:
+    - 'Created table mequy_leabio_patient_meal'
+    - builder_table_create_mequy_leabio_patient_meal.php

@@ -1,0 +1,11 @@
+plugin:
+    name: 'mequy.leabio::lang.plugin.name'
+    description: 'mequy.leabio::lang.plugin.description'
+    author: mequy
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Patient
+        url: mequy/leabio/patient
+        icon: icon-life-ring

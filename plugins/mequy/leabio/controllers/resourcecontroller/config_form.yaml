@@ -1,0 +1,14 @@
+name: 'Resource Controller'
+modelClass: Mequy\Leabio\Models\PatientMeal
+form: $/mequy/leabio/models/resourcecontroller/fields.yaml
+defaultRedirect: mequy/leabio/resourcecontroller
+create:
+    title: 'backend::lang.form.create_title'
+    redirect: 'mequy/leabio/resourcecontroller/update/:id'
+    redirectClose: mequy/leabio/resourcecontroller
+update:
+    title: 'backend::lang.form.update_title'
+    redirect: mequy/leabio/resourcecontroller
+    redirectClose: mequy/leabio/resourcecontroller
+preview:
+    title: 'backend::lang.form.preview_title'

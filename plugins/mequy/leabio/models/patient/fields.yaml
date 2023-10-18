@@ -1,0 +1,116 @@
+tabs:
+    fields:
+        question:
+            label: 'Kiểm tra sức khỏe'
+            prompt: 'Add new item'
+            # type: repeater
+            type: partial
+            path: health_check.php
+            context: update
+            tab: 'Kiểm tra sức khỏe'
+            form:
+                fields:
+                    name:
+                        label: 'Câu hỏi'
+                        type: text
+                        span: auto
+        sodium:
+            label: 'Kiểm tra natri'
+            prompt: 'Add new item'
+            type: repeater
+            tab: 'Kiểm tra natri'
+            form:
+                fields:
+                    name:
+                        label: 'Câu hỏi'
+                        type: text
+                        span: auto
+        eat_and_drink:
+            label: 'Ăn uống'
+            prompt: 'Add new item'
+            # type: repeater
+            type: partial
+            path: eat_and_drink.php
+            tab: 'Ăn uống'
+            form:
+                fields:
+                    name:
+                        label: 'Tên thức ăn'
+                        type: text
+                        span: auto
+                    unit:
+                        label: 'Đơn vị'
+                        type: text
+                        span: auto
+        v_d:
+            label: 'Vận hành'
+            prompt: 'Add new item'
+            type: repeater
+            tab: 'Vận hành'
+            form:
+                fields:
+                    cycling:
+                        label: 'Đạp xe'
+                        type: text
+                        span: auto
+fields:
+    patient_list_top:
+        type: partial
+        path: patien_list_top.php
+        context: update
+    patient_list_center:
+        type: partial
+        path: patien_list_center.php
+        context: update
+    name:
+        label: Tên
+        span: auto
+        type: text
+        context: create
+    age:
+        label: Tuổi
+        span: auto
+        type: text
+        context: create
+    monthly_income:
+        label: 'Thu nhập hàng tháng'
+        span: auto
+        type: text
+        context: create
+    family_members:
+        label: 'Thành viên gia đình'
+        span: auto
+        type: text
+        context: create
+    gender:
+        label: 'Giới tính'
+        options:
+            nam: Nam
+            nu: Nữ
+        showSearch: true
+        span: auto
+        type: dropdown
+        context: create
+    height:
+        label: 'Chiều cao'
+        span: auto
+        type: text
+        context: create
+    weight:
+        label: 'Cân nặng'
+        span: auto
+        type: text
+    address:
+        label: 'Địa chỉ'
+        span: auto
+        type: text
+        context: create
+    phone:
+        label: 'Số điện thoại'
+        span: auto
+        type: text
+        context: create
+    working_status:
+        label: 'Trạng thái'
+        span: auto
+        type: text
